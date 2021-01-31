@@ -5,8 +5,8 @@ package abstractfactory;
  */
 public enum HumanEnum {
     //把世界上所有人类型都定义出来
-    YelloMaleHuman("abstractfactory.yellowHuman.YellowMaleHuman"),
-    YelloFemaleHuman("abstractfactory.yellowHuman.YellowFemaleHuman"),
+    YellowMaleHuman("abstractfactory.yellowHuman.YellowMaleHuman"),
+    YellowFemaleHuman("abstractfactory.yellowHuman.YellowFemaleHuman"),
     WhiteMaleHuman("abstractfactory.whiteHuman.WhiteMaleHuman"),
     WhiteFemaleHuman("abstractfactory.whiteHuman.WhiteFemaleHuman"),
     BlackMaleHuman("abstractfactory.blackHuman.BlackMaleHuman"),

@@ -1,13 +1,12 @@
 package abstractfactory;
 
-import factorymethod.Human;
-
+import abstractfactory.Human;
 public abstract class AbstractYellowHuman implements Human {
     @Override
     public void laugh() {
         System.out.println("黄色人类会温和地笑");
     }
-
+    @Override
     public void cry() {
         System.out.println("黄色人类会哭");
     }
@@ -16,4 +15,5 @@ public abstract class AbstractYellowHuman implements Human {
     public void talk() {
         System.out.println("黄色人类会说话，一般说的都是双字节!");
     }
+
 }

@@ -10,7 +10,7 @@ public class FemaleHumanFactory extends AbstractHumanFactory{
     // 创建一个女性黄种人
     @Override
     public Human createYellowHuman() {
-        return super.createHuman(HumanEnum.YelloFemaleHuman);
+        return super.createHuman(HumanEnum.YellowFemaleHuman);
     }
     // 创建一个女性种白人
     @Override

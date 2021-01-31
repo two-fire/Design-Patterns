@@ -1,6 +1,6 @@
 package abstractfactory;
 
-import factorymethod.Human;
+import abstractfactory.Human;
 
 public abstract class AbstractWhiteHuman implements Human {
 
